@@ -30,3 +30,6 @@ make COMPILER=GNU
 Testdata can be downloaded from 
 https://github.com/Mantevo/CloverLeaf/tree/master/mpi/InputDecks
 
+cp clover_bm16_short.in clover.in 
+OMP_NUM_THREADS=1 mpirun -np 16 ./clover_leaf
+
