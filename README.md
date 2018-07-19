@@ -1,8 +1,11 @@
 # Cloverleaf-in-Azure
 
-git clone https://github.com/UK-MAC/Cloverleaf3D_ref.git Cloverleaf
-cd Cloverleaf
+git clone https://github.com/UK-MAC/Cloverleaf3D_ref.git 
+
+
 ```
+
+cd Cloverleaf
 export I_MPI_CXX=g++
 export I_MPI_CC=gcc
 export I_MPI_FC=gfortran
